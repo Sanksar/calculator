@@ -1,0 +1,40 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: flex;
+    height: 85vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+.row{
+    display: flex;
+     height: 6rem;
+    width: 100vw;
+}
+.col{
+    margin: 7px;
+    background-color: rgb(142 142 159);
+    font-size: 4rem;
+    width: 22rem;
+}
+
+.col:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+#text{
+    width: 100vw;
+    height: 20vh;
+    color: white;
+    font-size: 2rem;
+}
+
+.bg-black{
+    background-color: rgb(209 122 74)
+}
